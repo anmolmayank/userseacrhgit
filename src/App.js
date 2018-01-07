@@ -103,7 +103,7 @@ class App extends Component {
                 <a href={items.html_url}>{items.login}</a>
               </td>
               <td>
-                <a href={items.followers_url}>{items.followers}</a>
+                <a href={items.followers_url}>{items.followers_url}</a>
               </td>
             </tr>
           )}
